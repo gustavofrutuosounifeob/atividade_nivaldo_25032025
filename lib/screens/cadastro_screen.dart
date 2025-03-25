@@ -69,12 +69,12 @@ class _CadastroScreenState extends State<CadastroScreen> {
       padding: const EdgeInsets.only(bottom: 10),
       child: TextFormField(
         controller: controller,
-        style: TextStyle(color: Colors.black), // Define a cor do texto como preto
+        style: TextStyle(color: Colors.black), 
         decoration: InputDecoration(
           labelText: label,
-          labelStyle: TextStyle(color: Colors.black), // Rótulo do campo em preto
-          filled: true, // Habilita a cor de fundo
-          fillColor: Colors.white, // Define a cor de fundo como branca
+          labelStyle: TextStyle(color: Colors.black), 
+          filled: true, 
+          fillColor: Colors.white, 
           border: OutlineInputBorder(),
         ),
         validator: (value) => value!.isEmpty ? 'Campo obrigatório' : null,
@@ -88,12 +88,12 @@ class _CadastroScreenState extends State<CadastroScreen> {
       child: TextFormField(
         controller: controller,
         obscureText: true,
-        style: TextStyle(color: Colors.black), // Define a cor do texto como preto
+        style: TextStyle(color: Colors.black), 
         decoration: InputDecoration(
           labelText: label,
-          labelStyle: TextStyle(color: Colors.black), // Rótulo do campo em preto
-          filled: true, // Habilita a cor de fundo
-          fillColor: Colors.white, // Define a cor de fundo como branca
+          labelStyle: TextStyle(color: Colors.black), 
+          filled: true, 
+          fillColor: Colors.white, 
           border: OutlineInputBorder(),
         ),
         onTap: () {
